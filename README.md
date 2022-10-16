@@ -1,5 +1,7 @@
 # MyLim-PDF-Downloader
 Simple script to downlaod high quality pdf from mylim web reader. Support highlighting and table of contents (for some books) 
+- pdf quality: very high
+- pdf size: excellent (800 pages -> 25Mb)
 
 ### 📝 How to use
 - install python [https://www.python.org/downloads/]
