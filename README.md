@@ -8,6 +8,7 @@ Simple script to downlaod high quality pdf from mylim web reader. Support highli
    - install pip or pip3
 - install required imports
    - `pip install requests`
+- run `python3/py mylimDL.py`
 
 #### Demo Video
 
