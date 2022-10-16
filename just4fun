@@ -1,0 +1,2 @@
+import requests
+with open('book.pdf', 'wb') as f:f.write(requests.get(requests.get(f'https://www.cloudschooling.it/mialim2/api/v1/book/pdf/9788858316313/', headers={'Authorization': 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY2MDA1NzM5LCJqdGkiOiI5YjY4ZTQ5NDM3ODk0ZWUyYWQ3ZDI4OWI4YjEwM2E3MyIsInVzZXJfaWQiOjEwNzYwNjcsInVzZXJuYW1lIjoiZWRvYXJkb2JhMjAwNEBnbWFpbC5jb20iLCJlbWFpbCI6ImVkb2FyZG9iYTIwMDRAZ21haWwuY29tIiwibG9lc2NoZXJfcm9sZXMiOlsiU3R1ZGVudGUiXX0.Frfv_wSDGWH-J7SxvmjFM9YqQS2kc8djhvz_JZ0_baA'}).json()['url']).content)
