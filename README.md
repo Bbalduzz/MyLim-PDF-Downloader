@@ -1,2 +1,2 @@
 # MyLim-PDF-Downloader
-Downlaod high quality pdf from mylim web reader. Support highlighting and table on contents (for some books) 
+Simple script to downlaod high quality pdf from mylim web reader. Support highlighting and table of contents (for some books) 
